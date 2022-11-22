@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: Arial;
+  color: pink;
+  border: solid 10px black;
+  border-radius: 5px;
+}
