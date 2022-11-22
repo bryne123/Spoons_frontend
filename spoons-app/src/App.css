@@ -44,6 +44,13 @@ body {
 h1 {
   font-family: Arial;
   color: pink;
-  border: solid 10px black;
+}
+#loginButton {
+  position: relative;
+  top: 200px;
+  background-color: pink;
   border-radius: 5px;
+  padding: 15px;
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
 }

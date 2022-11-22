@@ -3,7 +3,10 @@ import "./login.css";
 const login = () => {
   return (
     <div id="login-container">
-      <label for="userName">Username</label>
+      <label class="label" for="userName">
+        Username{" "}
+      </label>
+      <br></br>
       <input
         id="userName"
         type="text"
@@ -11,9 +14,18 @@ const login = () => {
         name="user"
         required
       />
-      <label for="pass"></label>
+      <br></br>
+      <br></br>
+      <label class="label" for="pass">
+        Password{" "}
+      </label>
+      <br></br>
       <input id="pass" type="password" placeholder="password" required />
-      <button type="submit">Login</button>
+      <br></br>
+      <br></br>
+      <button id="login-button" type="submit">
+        Login
+      </button>
     </div>
   );
 };
