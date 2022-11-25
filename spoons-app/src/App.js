@@ -2,6 +2,7 @@ import "./App.css";
 import Login from "./login.js";
 import React, { useState } from "react";
 import axios from "axios";
+import Card from "./components/card";
 function App() {
   const [display, setDisplay] = useState(false);
   const [hide, setHide] = useState(true);
@@ -48,6 +49,7 @@ function App() {
             placeholder="Search for pubs"
           ></input>
         </div>
+        <Card></Card>
       </div>
     </>
   );
