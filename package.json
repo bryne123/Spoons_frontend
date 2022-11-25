@@ -1,0 +1,19 @@
+{
+  "name": "frontend-spoons",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000p\u0000o\u0000o\u0000n\u0000s\u0000_\u0000f\u0000r\u0000o\u0000n\u0000t\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryne123/Spoons_frontend.git"
+  },
+  "author": "Bryn Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryne123/Spoons_frontend/issues"
+  },
+  "homepage": "https://github.com/bryne123/Spoons_frontend#readme"
+}
